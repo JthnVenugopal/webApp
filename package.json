@@ -1,0 +1,30 @@
+{
+  "name": "week-6",
+  "version": "1.8.2",
+  "description": "Admin-User_Management-week-6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "cross-env NODE_DEBUG=tls nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Jithin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.9.0",
+    "nocache": "^4.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

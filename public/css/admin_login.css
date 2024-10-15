@@ -1,0 +1,122 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #4e73df);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px; /* Increased width for the container */
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Alert Styling */
+.alert {
+  color: red; /* Red color for alerts */
+  font-size: 14px; /* Smaller font size */
+  margin-bottom: 15px; /* Space below the alert */
+  display: none; /* Initially hidden */
+}
+
+/* Form Styling */
+form {
+  width: 100%;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  text-align: left;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+.btn1 {
+  background-color: #ff4500;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem; /* Slightly larger font size */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover, active, and focus */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  outline: none; /* Removes the default outline */
+}
+
+.btn1:hover {
+  background-color: #e03e00; /* Darker orange on hover */
+  transform: scale(1.05); /* Slightly larger button on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+  opacity: 0.9; /* Slightly dim the button */
+}
+
+.btn1:active {
+  background-color: #c03300; /* Even darker orange when clicked */
+  transform: scale(0.98); /* Shrink effect when clicked */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4); /* Reduced shadow on click */
+}
+
+.btn1:focus {
+  outline: none; /* Removes default outline */
+  box-shadow: 0 0 5px 2px rgba(255, 69, 0, 0.5); /* Orange glow on focus */
+}
+
+.btn1:focus-visible {
+  outline: none; /* Removes outline on focus-visible */
+  box-shadow: 0 0 5px 2px rgba(255, 69, 0, 0.8); /* Stronger glow when focused */
+}
+
+.btn1:disabled {
+  background-color: #e0e0e0; /* Light gray when disabled */
+  cursor: not-allowed; /* Prevent interaction when disabled */
+  box-shadow: none; /* Remove shadow on disabled state */
+}
+
+/* Form Group */
+.form-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

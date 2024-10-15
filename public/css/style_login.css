@@ -1,0 +1,102 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #4e73df);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  max-width: 500px;
+  margin-top: 80px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+/* Form Inputs */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff4500; /* Red mixed with orange */
+  border-color: #ff4500;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+/* Button Hover */
+.btn-primary:hover {
+  background-color: #ff751a; /* Darker orange on hover */
+  border-color: #ff751a;
+  transform: scale(1.05); /* Slightly enlarges button on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Larger shadow */
+}
+
+/* Button Active */
+.btn-primary:active {
+  background-color: #e03e00; /* Even darker orange when clicked */
+  border-color: #e03e00;
+  transform: scale(0.98); /* Shrink button on click */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); /* Smaller shadow on click */
+}
+
+/* Button Focus */
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(255, 69, 0, 0.5); /* Orange glow on focus */
+}
+
+/* Alerts */
+.alert {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Links */
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center a:hover {
+  color: #0056b3;
+}
+
+/* Text */
+.form-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #495057;
+}

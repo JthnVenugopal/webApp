@@ -1,0 +1,153 @@
+/* Body Background */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #4e73df); 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff; /* White background for content area */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 100%;
+  max-width: 800px; /* Max width for the dashboard */
+}
+
+/* Heading */
+h2 {
+  color: #333333; /* Dark gray heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table Styling */
+.table {
+  margin-top: 20px;
+  background-color: #f8f9fa; /* Light background for the table */
+  border-radius: 10px;
+  overflow: hidden; /* Rounded corners for the table */
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #4e73df; /* Table header background */
+  color: #ffffff; /* White text for headers */
+}
+
+.table td {
+  color: #333; /* Dark text for table cells */
+}
+
+.table-bordered {
+  border: 2px solid #dee2e6; /* Table border */
+}
+
+/* Buttons */
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #00d4ff, #00a3e0); /* Gradient for create user button */
+  border: none;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #00a3e0, #00d4ff); /* Hover color reverse */
+  transform: scale(1.05); /* Slight increase in size */
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #005eff, #0047b3); /* Gradient for search button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0047b3, #005eff);
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #6c757d, #495057); /* Gradient for clear button */
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #495057, #6c757d);
+  transform: scale(1.05);
+}
+
+.btn-warning {
+  background: linear-gradient(135deg, #ff9900, #ff6600); /* Gradient for edit button */
+  border: none;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(135deg, #ff6600, #ff9900);
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #ff3333, #cc0000); /* Gradient for delete and logout button */
+  border: none;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, #cc0000, #ff3333);
+  transform: scale(1.05);
+}
+
+/* Common Hover Effect for All Buttons */
+.btn:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  opacity: 0.95;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px; /* Space between search input and button */
+}
+
+/* Logout Button */
+.btn-logout {
+  display: block;
+  margin: 20px auto 0;
+  width: 100%;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .table {
+    font-size: 0.9rem; /* Smaller table text on smaller screens */
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+}

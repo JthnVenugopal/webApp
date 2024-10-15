@@ -1,0 +1,98 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #4e73df);
+  font-family: Arial, sans-serif; /* Font family */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff; /* White background for the container */
+  padding: 40px; /* Padding around the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  width: 100%; /* Full width */
+  max-width: 400px; /* Max width for the container */
+  margin: 20px; /* Small margin around the container */
+  text-align: center; /* Center content inside */
+}
+
+/* Headings */
+h1 {
+  color: #333; /* Dark gray color for headings */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Form Styling */
+form {
+  width: 100%; /* Full width form inside container */
+}
+
+/* Labels */
+label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 5px; /* Space below labels */
+  color: #555; /* Medium gray for labels */
+  text-align: left; /* Align labels to the left */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 15px; /* Space below inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect input width */
+}
+
+/* Button */
+button {
+  background-color: #ff4500; /* Red mixed with orange */
+  border-color: #ff4500;
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding inside button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and scale */
+}
+
+button:hover {
+  background-color: #e43f00; /* Slightly darker orange on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(255, 69, 0, 0.7); /* Add custom focus shadow */
+}
+
+button:active {
+  background-color: #c83e00; /* Darker orange when button is active */
+  transform: scale(1); /* Remove zoom effect when the button is pressed */
+}
+
+/* Form Group */
+.form-group {
+  text-align: center; /* Center text */
+  margin-top: 20px; /* Add margin to the form group */
+}
+
+/* Links */
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

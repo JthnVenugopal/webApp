@@ -1,0 +1,63 @@
+/* Body Background */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #4e73df);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+.container {
+  max-width: 700px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+  color: #495057;
+  margin-bottom: 30px;
+}
+
+/* Sign Out Button Styling */
+.btn-signout {
+  background-color: #ff1e01; /* Bootstrap danger color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-signout:hover {
+  background-color: #c82333; /* Darker red on hover */
+  color: white;
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+  max-height: 300px;
+  object-fit: cover; /* Ensures the image fits well in the carousel */
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40; /* Dark icons for controls */
+  border-radius: 50%;
+  padding: 10px;
+}
